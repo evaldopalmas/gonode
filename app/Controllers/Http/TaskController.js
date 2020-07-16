@@ -46,7 +46,7 @@ class TaskController {
         ])
 
         const task = await Task
-            .create({...data, project_id: params.projects_id })
+            .creaete({...data, project_id: params.projects_id })
 
         return task
     }
